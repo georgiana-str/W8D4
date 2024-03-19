@@ -1,0 +1,122 @@
+/* IMPOSTAZIONI GENERALI */
+html { font size: 62%;
+}
+body {
+    background-image: url(/assets/img/sfondo.png);
+    font-size: 20px;
+    font-family: poppins;
+    line-height: 1.5;
+    background-position:center ;
+    padding: 20px;
+    box-sizing: border-box;
+   
+}
+
+    
+
+/* HEADER */
+header {
+    background-color: rgb(86, 170, 208);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 40px;
+    box-shadow: 0 10px 5px #1000ee;
+    width: 300px;
+    margin-bottom: 2px;
+    background-position: center;
+    }
+
+
+/* MAIN */
+main { 
+    background-color: white;
+    box-shadow: 0 10px 10px #1000ee;
+    margin-bottom: auto;
+}
+section {
+    padding: 40px; 
+    background-color: aqua;
+    position: relative;
+}
+section h2 {
+    text-align: center;
+    color:black;
+
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+h1 {
+ font-size: 2.6rem;
+ font-weight: bold;
+ margin-bottom: 0.7em;
+}
+p, address, ul, ol, dl, blockquote {
+    margin-bottom: 1em;
+}
+ul, ol {
+    margin-left: 2em;
+}
+
+
+/* TABELLE */
+table {
+    margin-bottom: 2em;
+}
+   
+    caption {
+        font-weight: bold;
+    }
+    thead tr {
+        background-color: #1000ee;
+        color: white;
+    }
+    th, td {
+        padding: 11px 14px;
+        text-align: center;
+        vertical-align: bottom;
+    }
+
+
+/* FORM */
+input {
+    padding: 4px 6px;
+    border: 0;
+    border-bottom: #9a9aa4;
+}
+button {
+    padding: 4px 6px;
+    border-bottom: #9a9aa4;
+    border: 0;
+}
+
+/* ELEMENTI NELL' ASIDE */
+aside h2 {
+    text-align: center;
+    color: #434141;
+    font-size: 2px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+aside div {
+    background-color: #d3d1d1;
+    border: 1px solid #918e8e;
+    margin-bottom: 1px;
+    padding: 1px;
+
+}
+aside div p:last-child {
+    margin-bottom: 0;
+    font-size: 1px;
+    text-align: right;
+}
+
+/* FOOTER */
+footer {
+    background: #03781c;
+    box-shadow: 0 3px 3px #444;
+    color: #ffffff;
+    padding: 1px;
+    text-align: center;
+    font-size: medium;
+}
